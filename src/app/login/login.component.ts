@@ -13,5 +13,6 @@ export class LoginComponent {
 
   navigateToSignup() {
     this.router.navigate(['/sign-up']);
+    //haha
   }
 }
