@@ -1,4 +1,4 @@
-// Variables
+
 $dark: #352F44;
 $fair: #FAF0E6;
 $shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -12,7 +12,6 @@ $button-hover-bg: #6A0202;
 $text-color: #FFFFFF;
 $title-color: #A9A9A9;
 
-// Mixins
 @mixin title {
     font-size: 2rem;
     text-align: center;
@@ -54,7 +53,6 @@ $title-color: #A9A9A9;
     }
 }
 
-// Styles
 :host {
     font-family: 'Arial', sans-serif;
     background-color: $background;

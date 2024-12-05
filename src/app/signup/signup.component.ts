@@ -14,6 +14,6 @@ export class SignupComponent {
   constructor(private router: Router) {}
 
   navigateToMain() {
-    this.router.navigateByUrl("main");
+    this.router.navigateByUrl("login");
   }
 }
